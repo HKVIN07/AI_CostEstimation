@@ -16,7 +16,10 @@ This project is an AI-driven cost estimation tool designed to provide  cost esti
    ```
    pip install -r requirements.txt
    ```
-
+   if at all not working 
+   ```
+   pip install 'lib name'
+   ```
 2. **SQL Server Connection**: Modify the SQL connection details in the `GenAi_API.py` file:
    - Locate the `__init__` method in `GenAi_API.py`.
    - Update the server name in line 22:
