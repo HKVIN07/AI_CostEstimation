@@ -1,22 +1,3 @@
-# AI_CostEstimation
-AI driven cost estimation tool.  
--UI is created in .NET 6 
--Backend in Python and GenAI
--Database SqlServer
-
-Configration :-
-Backend : - All python lib should be installed which is inside requirments. (pip install "libname")
-          - SQL connection name has to be changed inside the file GenAi_API.
-              - this is line 22  "def __init__(self, server='471D0A8AE4E15D5\MSSQLSERVER01', database='AICostEstimation',driver='ODBC Driver 17 for SQL Server'):"
-              - only change server name check the server name in your SQL server provide 'server=your SQL server name'
-          - To run the API run this command " python -m uvicorn GenAi_API:app --reload" in the path terminal.
-Database :- Open AI_CostEstimation_Dataset in SQL server and run he code.
-            check if the table is created inside Open AI_CostEstimation_Dataset 
-          
-
-
-change
-
 # AI Cost Estimation Tool
 
 This project is an AI-driven cost estimation tool designed to provide  cost estimates based on various parameters.
